@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto;
+    display: flex;
+    
+}
+header{
+    display: flex;
+    position: fixed;
+    font-weight: 00;
+
+}
+header h3{
+    font-weight: 400;
+    margin: 20px 40px;
+}
+.nametitulo{
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    right:40px;
+    top: 23px;
+    
+}
+.navbar a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.navbar a:hover {
+    color: black;
+    font-weight: bold;
+
+}
