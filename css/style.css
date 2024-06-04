@@ -8,7 +8,7 @@ body{
 header{
     display: flex;
     position: fixed;
-    font-weight: 00;
+    font-size: 20px;
     
 
 }
@@ -45,12 +45,13 @@ header h3{
     align-items: center;
     justify-content: space-between;
     padding: 70px 100px;
+    margin-top: 8%;
     /* box-sizing: border-box; */
     
 }
 .hero-content{
     max-width: 30%;
-    margin-top: 8%;
+
    
     
 }
@@ -63,7 +64,7 @@ header h3{
     font-weight: bold;
 }
 .hero-content p{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -84,12 +85,21 @@ header h3{
     max-width: 0%;
     
     margin-right: 40%;
-    margin-top: 10%;
+    
+    margin-bottom: 20px;
 }
 .hero-image img{
     
     width: 400px;
     
     border-radius: 50%;
+}
+
+.sec-iconos{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 34%;
+    font-size: 40px;
+
 }
 
