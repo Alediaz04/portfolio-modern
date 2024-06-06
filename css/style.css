@@ -9,6 +9,7 @@ header{
     display: flex;
     position: fixed;
     font-size: 20px;
+   
     
 
 }
@@ -38,7 +39,7 @@ header h3{
     font-weight: bold;
 
 }
-
+/* Terminado header, Falta poner fondo blanco */
 
 .hero{
     display: flex;
@@ -94,12 +95,44 @@ header h3{
     
     border-radius: 50%;
 }
-
+/* Hero Terminado */
 .sec-iconos{
     display: flex;
     justify-content: space-around;
     margin: 40px 34%;
     font-size: 40px;
+    
 
+}
+.nodeco{
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nodeco:hover{
+    color: #0056b3;
+}
+/* Iconos terminados falta linkearlos */
+.skills{
+    text-align: center;
+    padding-top: 30px ;
+    
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 20%;
+   
+    
+}
+.img-skills{
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s, height 0.3s;
+}
+
+.img-skills:hover{
+    width: 110px;
+    height: 110px;
 }
 
