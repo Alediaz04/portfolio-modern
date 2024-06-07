@@ -40,6 +40,9 @@ header h3{
 
 }
 /* Terminado header, Falta poner fondo blanco */
+main{
+    height: 100%;
+}
 
 .hero{
     display: flex;
@@ -47,7 +50,6 @@ header h3{
     justify-content: space-between;
     padding: 70px 100px;
     margin-top: 8%;
-    /* box-sizing: border-box; */
     
 }
 .hero-content{
@@ -65,7 +67,7 @@ header h3{
     font-weight: bold;
 }
 .hero-content p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -81,6 +83,10 @@ header h3{
 .hero-content button:hover {
     background-color:  #0056b3;
     
+}
+.hero-content button a{
+    text-decoration: none;
+    color: white;
 }
 .hero-image{
     max-width: 0%;
@@ -157,6 +163,8 @@ header h3{
 }
 .proyect-text{
     padding-left: 20px;
+    
+    
 }
 .proyect-text button{
     background-color: black;
@@ -164,10 +172,52 @@ header h3{
     position: relative;
     left: 70%;
     border-radius: 30px;
-    
+    animation: background-color 0.3s;
 }
 .proyect-text button a{
     text-decoration: none;
     color: white;
     padding: 5px 14px;
+    
+}
+.proyect-text button:hover{
+    background-color: #0056b3;
+
+}
+/* Proyectos Terminado */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.border{
+     border-top: 1px solid black;
+     padding: 20px 0;
+     
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.text-foot{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 150px;
+    
+}
+.iconos-foot{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+.img-foot img{
+    width: 300px;
+    padding: 40px;
+
 }
