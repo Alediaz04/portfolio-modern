@@ -9,6 +9,9 @@ header{
     display: flex;
     position: fixed;
     font-size: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: #ffff;
    
     
 
@@ -118,7 +121,8 @@ main{
 .nodeco:hover{
     color: #0056b3;
 }
-/* Iconos terminados falta linkearlos */
+/* Iconos terminados  */
+
 .skills{
     text-align: center;
     padding-top: 30px ;
@@ -142,6 +146,7 @@ main{
     height: 110px;
 }
 /* Skills terminadas */
+
 .texto{
     text-align: center;
     padding-top: 30px;
