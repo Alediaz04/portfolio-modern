@@ -70,7 +70,7 @@ main{
     font-weight: bold;
 }
 .hero-content p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -123,6 +123,22 @@ main{
 }
 /* Iconos terminados  */
 
+.about{
+    display: flex;
+    text-align: center;
+    margin: 0 20% ;
+    padding-top: 30px;
+}
+.about p{
+    font-size: 16px;
+}
+.about p span{
+    font-weight: bold;
+}
+
+
+/* About Me Terminado */
+
 .skills{
     text-align: center;
     padding-top: 30px ;
@@ -146,7 +162,9 @@ main{
     height: 110px;
 }
 /* Skills terminadas */
-
+.proyectos{
+    padding-top: 30px;
+}
 .texto{
     text-align: center;
     padding-top: 30px;
