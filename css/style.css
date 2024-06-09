@@ -12,8 +12,6 @@ header{
     height: 50px;
     width: 100%;
     background-color: #ffff;
-   
-    
 
 }
 header h3{
@@ -42,7 +40,7 @@ header h3{
     font-weight: bold;
 
 }
-/* Terminado header, Falta poner fondo blanco */
+/* Terminado header */
 main{
     height: 100%;
 }
