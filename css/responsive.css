@@ -1,0 +1,72 @@
+@media(max-width:1440px){
+    /* SE VE BIEN, No NESECITA Ajuste */
+
+}
+
+@media(max-width: 1280px){
+     /* SE VE BIEN, No NESECITA Ajuste */
+
+
+}
+
+@media(max-width: 1024px){
+    body{
+        width: 100%;
+    }
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .hero-image img{
+        width: 300px;
+        margin-left: 95px;
+    }
+    .about div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+
+    }
+    
+}
+
+@media(max-width: 768px){
+    .navbar a{
+        display: none;
+    }
+    .navbar .minavbar{
+        display: block;
+    }
+    
+}
+
+@media(max-width: 480px){
+    .navbar a{
+        display: none;
+    }
+    .navbar .minavbar{
+        display: block;
+    }
+    
+}
+
+@media(max-width: 320px){
+    .navbar a{
+        display: none;
+    }
+    .navbar .minavbar{
+        display: block;
+    }
+    
+}
