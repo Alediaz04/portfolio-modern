@@ -2,7 +2,13 @@
 
 body{
     font-family: Roboto;
-    display: flex;
+    display: flex; 
+    color: #ffff;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
     
 }
 header{
@@ -11,7 +17,7 @@ header{
     font-size: 20px;
     height: 50px;
     width: 100%;
-    background-color: #ffff;
+    border-bottom: #005 2px solid;
 
 }
 header h3{
@@ -31,17 +37,17 @@ header h3{
 .navbar a{
     padding: 0px 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 400;
     transition: color 0.3s ease, font-weight 0.3s ease;
 }
 .navbar a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 
 }
 .navbar .minavbar{
-    color: black;
+    color: rgb(255, 255, 255);
     display: none;
     font-size: 22px;
    
@@ -148,6 +154,8 @@ main{
 .skills{
     text-align: center;
     padding-top: 30px ;
+    height: 200px;
+    
     
 }
 .div{
