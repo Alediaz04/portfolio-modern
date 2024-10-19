@@ -29,11 +29,14 @@ header h3{
     display: flex;
     position: fixed;
     right:40px;
-    top: 23px;
+    top: 25px;
     
 }
 .navbar a{
-    padding: 0px 15px;
+   
+    width: 80px;
+    height: 30px;
+    padding: 0px 0px 0px 20px ;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -44,12 +47,7 @@ header h3{
     font-weight: bold;
 
 }
-.navbar .minavbar{
-    color: rgb(255, 255, 255);
-    display: none;
-    font-size: 22px;
-   
-}
+
 
 
 /* Terminado header */
@@ -74,23 +72,30 @@ main{
 .hero-content h1{
     font-weight: 400;
     margin-bottom: 10px;
+    text-align: center;
     
 }
 .hero-content span{
     font-weight: bold;
 }
 .hero-content p{
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 .hero-content button{
+    position: relative;
+    left: 140px;
     text-decoration: none;
     background-color: black;
     color: white;
+    width: 150px;
+    height: 40px;
     padding: 5px 15px;
+    border: none;
     border-radius:15px ;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 
 }
 .hero-content button:hover {
@@ -157,11 +162,16 @@ main{
     
 }
 .div{
+    height: 120px;
     display: flex;
     justify-content: space-around;
     margin: 0% 20%;
    
     
+}
+.div a{
+    width: 100px;
+    height: 100px;
 }
 .img-skills{
     width: 100px;
@@ -206,6 +216,8 @@ main{
     
     position: relative;
     left: 70%;
+    height: 25px;
+    border: none;
     border-radius: 30px;
     animation: background-color 0.3s;
 }
@@ -254,5 +266,6 @@ main{
 .img-foot img{
     width: 300px;
     padding: 40px;
+    border-radius: 50%;
 
 }
