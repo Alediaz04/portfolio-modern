@@ -17,4 +17,7 @@ a continuacion detallare los cambios realizados:
 . En la seccion proyectos cambiamos los de el portfolio original por mis proyectos realizadas actualmente
 . Cambiamos los datos en la seccion de "Contact Me" y los medios de contacto agregando Whatsapp en esta, lo demas se mantuvo identico al original
 
-Link a la pagina web de mi proyecto:
+Anotaciones:
+.Por falta de tiempo e entendimiento no pude realizar el responsive.
+
+Link a la pagina web de mi proyecto: https://alediaz04.github.io/Trabajo-1-UTN/
