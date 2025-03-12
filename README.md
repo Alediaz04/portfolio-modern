@@ -20,4 +20,4 @@ a continuacion detallare los cambios realizados:
 Anotaciones:
 .Por falta de tiempo e entendimiento no pude realizar el responsive.
 
-Link a la pagina web de mi proyecto: https://alediaz04.github.io/Trabajo-1-UTN/
+Link a la pagina web de mi proyecto: https://alediaz04.github.io/portfolio-modern/
